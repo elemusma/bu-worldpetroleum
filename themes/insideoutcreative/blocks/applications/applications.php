@@ -57,7 +57,7 @@ echo wp_get_attachment_image($image['id'], 'full', '', [
 
 echo '<div class="position-relative z-1 w-100">';
 
-echo '<h3 class="mb-0 heading text-uppercase h5 handel">' . get_sub_field('title') . '</h3>';
+echo '<h3 class="mb-0 heading text-uppercase h5">' . get_sub_field('title') . '</h3>';
 
 echo '</div>';
 
@@ -102,7 +102,7 @@ if($image) {
 echo '<div class="position-relative z-1 w-100">';
 
 if(get_sub_field('title')) {
-    echo '<h3 class="mb-0 heading text-uppercase h5 handel">' . get_sub_field('title') . '</h3>';
+    echo '<h3 class="mb-0 heading text-uppercase h5">' . get_sub_field('title') . '</h3>';
 }
 
 echo '</div>';

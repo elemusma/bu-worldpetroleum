@@ -1,3 +1,7 @@
+.ul-improve li {
+    direction: rtl;
+}
+
 /* start of improve */
 a.col-improve-top-row-links img {
     transition: all .25s ease-in-out;

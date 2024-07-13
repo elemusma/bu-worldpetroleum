@@ -1,10 +1,10 @@
 <?php
 echo '<footer>';
-echo '<section class="position-relative" style="padding-top:50px;">';
+echo '<section class="position-relative" style="padding-top:50px;background:#e6e6e6;">';
 
-echo wp_get_attachment_image(114,'full','',[
-    'class'=>'w-100 h-100 position-absolute bg-img'
-]);
+// echo wp_get_attachment_image(114,'full','',[
+//     'class'=>'w-100 h-100 position-absolute bg-img'
+// ]);
 
 echo '<div class="container">';
 echo '<div class="row justify-content-center">';
@@ -25,14 +25,14 @@ echo '</div>';
 echo '<div class="col-12">';
 
 wp_nav_menu(array(
-'menu' => 'Footer Menu',
-'menu_class'=>'menu d-flex flex-wrap list-unstyled justify-content-center text-white text-uppercase'
+'menu' => 'Primary',
+'menu_class'=>'menu d-flex flex-wrap list-unstyled justify-content-center text-uppercase'
 ));
 
 echo '</div>';
-echo '<div class="col-12 text-center text-white">';
+echo '<div class="col-12 text-center">';
 
-echo '<p class="mb-0">Phone: <a href="tel:+1' . get_field('phone','options') . '" class="text-white">' . get_field('phone','options') . '</a> <span class="ml-3 mr-3">|</span> Address: ' . get_field('address','options') . ' <span class="ml-3 mr-3">|</span> Email: <a href="mailto:' . get_field('email','options') . '" target="_blank" class="text-white">' . get_field('email','options') . '</a><span></span></p>';
+echo '<p class="mb-0">Phone: <a href="tel:+1' . get_field('phone','options') . '" class="">' . get_field('phone','options') . '</a> <span class="ml-3 mr-3">|</span> Fax: ' . get_field('fax','options') . ' <span class="ml-3 mr-3">|</span> Address: ' . get_field('address','options') . ' <span class="ml-3 mr-3">|</span> Email: <a href="mailto:' . get_field('email','options') . '" target="_blank" class="">' . get_field('email','options') . '</a><span></span></p>';
 
 echo '<div class="si pt-4 pb-4 d-flex flex-wrap justify-content-center">';
 
@@ -60,8 +60,8 @@ echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</section>';
-echo '<div class="text-center" style="background:#d9d9d9;padding:10px 0px;margin:10px 0px;">';
-    echo '<p class="" style="margin:0;"><a href="https://buildupuniversity.com" target="_blank" rel="noopener noreferrer" style="color:#848484;text-decoration:none;">WEB DEVELOPMENT &amp; DESIGN</a> BY BUILDUP</p>';
+echo '<div class="text-center bg-accent-tertiary" style="padding:10px 0px;">';
+    echo '<a href="https://buildupuniversity.com" target="_blank" rel="noopener noreferrer" style="color:#848484;text-decoration:none;"><img src="https://buildupuniversity.com/wp-content/uploads/2024/07/Build-Up-Backlink.png" style="width:150px;height:auto;" /></a>';
 echo '</div>';
 echo '</footer>';
 

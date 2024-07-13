@@ -51,7 +51,7 @@ echo wp_get_attachment_image($image['id'],'full','',[
 
 echo '<div class="position-relative z-1 w-100">';
 
-echo '<h3 class="mb-0 heading text-uppercase h5 handel">' . $image['title'] . '</h3>';
+echo '<h3 class="mb-0 heading text-uppercase h5">' . $image['title'] . '</h3>';
 
 echo '</div>';
 echo '</a>';

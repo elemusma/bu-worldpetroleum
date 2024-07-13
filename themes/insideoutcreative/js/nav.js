@@ -1,8 +1,8 @@
 // let menuHeight = document.querySelector('ul#menu-main-menu');
-// let navMenu = document.querySelector('#navItems');
-// let navMenuToggle = document.querySelector('#navToggle');
-// let navMenuOverlay = document.querySelector('#navMenuOverlay');
-// let navMenuClose = document.querySelector('#navMenuClose');
+let navMenu = document.querySelector('#navItems');
+let navMenuToggle = document.querySelector('#navToggle');
+let navMenuOverlay = document.querySelector('#navMenuOverlay');
+let navMenuClose = document.querySelector('#navMenuClose');
 
 // let header = document.querySelector('header');
 // let blankSpace = document.querySelector('.blank-space');
@@ -32,9 +32,9 @@ for (i = 0; i < menuItems.length; i++) {
 }
 // ###################################################
 
-// navMenuClose.addEventListener('click', closeMenu);
-// navMenuOverlay.addEventListener('click', closeMenu);
-// navMenuToggle.addEventListener('click', openMenu);
+navMenuClose.addEventListener('click', closeMenu);
+navMenuOverlay.addEventListener('click', closeMenu);
+navMenuToggle.addEventListener('click', openMenu);
 
 function openMenu() {
     setTimeout(function () {

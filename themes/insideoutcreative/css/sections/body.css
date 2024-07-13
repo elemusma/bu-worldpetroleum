@@ -1,7 +1,7 @@
 :root {
   --accent-primary: #2a8dbf;
-  --accent-secondary: #110f2e;
-  --accent-tertiary: #8bc3c9;
+  --accent-secondary: #080361;
+  --accent-tertiary: #110f2e;
   --proxima-nova: proxima-nova, sans-serif;
 }
 
@@ -40,6 +40,13 @@ a.bg-accent:hover {
 }
 
 a.bg-accent-secondary:hover {
+  background: var(--accent-primary);
+}
+.bg-accent-tertiary {
+  background: var(--accent-tertiary);
+}
+
+a.bg-accent-tertiary:hover {
   background: var(--accent-primary);
 }
 

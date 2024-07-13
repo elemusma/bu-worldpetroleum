@@ -199,6 +199,7 @@ function btn_shortcode( $atts, $content = null ) {
 	if (strpos($id, 'modal') !== false) {
 		return '<span class="btn-main ' . esc_attr($a['class']) . '" aria-label="' . esc_attr($a['aria-label']) . '" style="' . esc_attr($a['style']) . '" target="' . esc_attr($a['target']) . '" id="' . esc_attr($a['id']) . '">' . $content . '</span>';
 	} else {
+		$output = "";
 		$output .= '<a class="btn-main ' . esc_attr($a['class']) . '" href="' . esc_attr($a['href']) . '" style="text-decoration:none;border: 2px solid #d7d7d7;display: inline-block;padding: 5px;color:#acacac;' . esc_attr($a['style']) . '" target="' . esc_attr($a['target']) . '" id="' . esc_attr($a['id']) . '">';
 
 		$output .= '<div class="bg-black" style="padding: 15px 25px;transition:all .25s ease-in-out;">';
