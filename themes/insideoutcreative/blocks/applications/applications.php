@@ -44,7 +44,7 @@ if(have_rows('top_row_gallery_repeater')):
 
 
 
-$image = get_sub_field('image');
+$image = get_sub_field('image'); // test
 
 
 echo '<div class="col-lg-4 col-md-6 col-top-row-links text-white text-center d-flex justify-content-center overflow-h">';
