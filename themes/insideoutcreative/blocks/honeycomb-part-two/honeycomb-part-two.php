@@ -102,7 +102,7 @@ echo '<ul class="list-unstyled ul-improve text-right">';
 
 if(have_rows('sidebar_titles')): while(have_rows('sidebar_titles')): the_row();
 
-echo '<li class="text-accent-green-1 handel">' . get_sub_field('title') . '</li>';
+echo '<li class="text-accent-green-1 light">' . get_sub_field('title') . '</li>';
 
 endwhile; else : endif;
 

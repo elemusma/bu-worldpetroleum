@@ -6,6 +6,7 @@
     font-size: 1.35rem;
     line-height: 2.5;
     text-decoration: underline;
+    white-space: nowrap;
 }
 
 @media screen and (max-width:991px) {
@@ -39,7 +40,7 @@
 .col-top-row-links:first-child .overlay-custom,
 .col-top-row-links:nth-child(3) .overlay-custom {
     background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 50%, rgba(135, 183, 189, 1) 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 50%, var(--accent-secondary) 100%);
 }
 
 @media screen and (min-width:992px) {}
@@ -149,7 +150,7 @@
 }
 
 .col-bottom-row-links:first-child .heading {
-    background: #86c1a9;
+    background: var(--accent-secondary);
     transform: translate(15px, 0);
 }
 

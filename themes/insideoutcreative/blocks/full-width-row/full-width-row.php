@@ -37,6 +37,8 @@ echo wp_get_attachment_image($mobileImage['id'],'full','',[
     'id'=>''
 ]);
 
+echo '<div class="overlay position-absolute w-100 h-100 bg-black" style="top:0;left:0;opacity:.5;"></div>';
+
 echo '<div class="container-fluid">';
 echo '<div class="row">';
 
@@ -54,7 +56,7 @@ echo '<div class="position-absolute col-full-width-row-background"></div>';
 
 echo '<div class="position-relative w-100" style="padding-top:25px;padding-bottom:25px;">';
 
-echo '<div class="position-absolute w-100 h-100" style="background:#b9764c;opacity:.51;top:0;left:0;transition:all .25s ease-in-out;"></div>';
+echo '<div class="position-absolute w-100 h-100" style="background:#444645;opacity:.51;top:0;left:0;transition:all .25s ease-in-out;"></div>';
 
 echo '<div class="position-relative">';
 

@@ -8,12 +8,12 @@ echo '<div class="' . get_sub_field('column_classes') . '" data-aos="fade-up" st
 echo '<div class="bg-accent-green text-white text-center">';
 echo '<h3 class="" style="' . get_sub_field('column_style') . 'margin:0;padding: 15px 0px;">' . get_sub_field('title') . '</h3>';
 echo '</div>';
-echo '<div class="overflow-h" style="height: 250px;">';
+echo '<div class="overflow-h" style="height: 150px;">';
 
 $img = get_sub_field('image');
 echo wp_get_attachment_image($img['id'],'full','',[
     'class'=>'w-100 img-intro img-hover',
-    'style'=>'height:250px;object-fit:cover;'
+    'style'=>'height:150px;object-fit:cover;'
 ]);
 
 echo '</div>';

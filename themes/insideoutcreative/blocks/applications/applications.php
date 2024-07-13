@@ -23,17 +23,17 @@ echo '<div class="row">';
 
 
 if(have_rows('sidebar_titles_repeater')):
-    echo '<div class="col-lg-2 order-md-2 order-2" data-aos="fade-up" data-aos-delay="200">';
+    echo '<div class="col-lg-3 order-md-2 order-2" data-aos="fade-up" data-aos-delay="200">';
     echo '<ul class="list-unstyled ul-applications">';
     while(have_rows('sidebar_titles_repeater')): the_row();
-        echo '<li class="text-accent-green-1 handel">' . get_sub_field('title') . '</li>';
+        echo '<li class="text-accent-green-1 light">' . get_sub_field('title') . '</li>';
     endwhile;
 echo '</ul>';
 echo '</div>';
 endif;
 
 
-echo '<div class="col-lg-10 order-md-2 order1">';
+echo '<div class="col-lg-9 order-md-2 order1">';
 echo '<div class="row">';
 echo '<div class="col-12">';
 
@@ -92,14 +92,18 @@ echo '<div class="col-md-6 col-bottom-row-links text-white text-center d-flex ju
 
 echo '<div class="overlay-custom position-absolute w-100 h-100 z-1" style="pointer-events:none;"></div>';
 
-echo wp_get_attachment_image($image['id'], 'full', '', [
-    'class'=>'w-100 h-100 position-absolute bg-img',
-    'style'=>''
-]);
+if($image) {
+    echo wp_get_attachment_image($image['id'], 'full', '', [
+        'class'=>'w-100 h-100 position-absolute bg-img',
+        'style'=>''
+    ]);
+}
 
 echo '<div class="position-relative z-1 w-100">';
 
-echo '<h3 class="mb-0 heading text-uppercase h5 handel">' . get_sub_field('title') . '</h3>';
+if(get_sub_field('title')) {
+    echo '<h3 class="mb-0 heading text-uppercase h5 handel">' . get_sub_field('title') . '</h3>';
+}
 
 echo '</div>';
 echo '</div>';

@@ -1,0 +1,19 @@
+{
+    "name": "acf/big-image",
+    "title": "Big Image",
+    "description": "A custom big-image block.",
+    "style": [
+        "file:./big-image.css"
+    ],
+    "category": "formatting",
+    "icon": "admin-customizer",
+    "keywords": [
+        "big-image",
+        "quote"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "big-image.php"
+    },
+    "align": "full"
+}

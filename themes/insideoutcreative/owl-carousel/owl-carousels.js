@@ -63,7 +63,7 @@ $('.testimonial-carousel').owlCarousel({
 $('.carousel-gallery').owlCarousel({
     // center: true,
     loop: false,
-    margin: 0,
+    margin: 10,
     nav: true,
     dots: false,
     // autoHeight: false,

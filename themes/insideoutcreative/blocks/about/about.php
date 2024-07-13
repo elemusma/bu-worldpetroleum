@@ -28,7 +28,7 @@ $link_target = $link['target'] ? $link['target'] : '_self';
 
 echo '<a class="text-white position-relative text-center about-side-links d-block w-100" href="' . esc_url( $link_url ) . '" target="' . esc_attr( $link_target ) . '" data-aos="fade-up" data-aos-delay="' . $sideLinksCounter . '50" style="">';
 
-echo '<div class="position-absolute w-100 h-100 about-side-links-bg"  style="top:0;left:0;background:#87b7bd;"></div>';
+echo '<div class="position-absolute w-100 h-100 about-side-links-bg"  style="top:0;left:0;background:var(--accent-primary);"></div>';
 
 echo '<div class="position-relative handel" style="padding:15px 0px;">';
 echo esc_html( $link_title );
