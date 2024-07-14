@@ -15,6 +15,7 @@ function register_acf_blocks() {
 	register_block_type( __DIR__ . '/blocks/carousel-gallery' );
 	register_block_type( __DIR__ . '/blocks/instagram-feed' );
 	register_block_type( __DIR__ . '/blocks/big-image' );
+	register_block_type( __DIR__ . '/blocks/big-image-gallery' );
 }
 
 

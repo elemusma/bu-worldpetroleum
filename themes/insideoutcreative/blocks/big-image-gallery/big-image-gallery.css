@@ -1,0 +1,12 @@
+@media only screen and (max-width:991px) {
+    .big-image-gallery {
+        min-height: 10vh !important;
+        height: 400px !important;
+    }
+}
+@media only screen and (max-width:767px) {
+    .big-image-gallery {
+        min-height: 10vh !important;
+        height: 200px !important;
+    }
+}

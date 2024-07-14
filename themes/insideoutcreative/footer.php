@@ -60,7 +60,7 @@ echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</section>';
-echo '<div class="text-center bg-accent-tertiary" style="padding:10px 0px;">';
+echo '<div class="text-center bg-accent-secondary" style="padding:10px 0px;">';
     echo '<a href="https://buildupuniversity.com" target="_blank" rel="noopener noreferrer" style="color:#848484;text-decoration:none;"><img src="https://buildupuniversity.com/wp-content/uploads/2024/07/Build-Up-Backlink.png" style="width:150px;height:auto;" /></a>';
 echo '</div>';
 echo '</footer>';

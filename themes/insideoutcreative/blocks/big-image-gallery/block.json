@@ -1,0 +1,19 @@
+{
+    "name": "acf/big-image-gallery",
+    "title": "Big Image Gallery",
+    "description": "A custom big-image-gallery block.",
+    "style": [
+        "file:./big-image-gallery.css"
+    ],
+    "category": "formatting",
+    "icon": "admin-customizer",
+    "keywords": [
+        "big-image-gallery",
+        "company"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "big-image-gallery.php"
+    },
+    "align": "full"
+}

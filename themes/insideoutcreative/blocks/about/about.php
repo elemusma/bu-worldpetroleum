@@ -4,6 +4,8 @@ echo '<section class="position-relative content-section ' . get_field('classes')
 
 echo get_template_part('partials/bg-img');
 
+echo get_field('code_block');
+
 echo '<div class="container">';
 echo '<div class="row align-items-center">';
 
